@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+h1, h2, h3, p{
+    color: azure;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
