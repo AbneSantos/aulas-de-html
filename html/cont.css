@@ -1,0 +1,31 @@
+.azul{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+}
+
+.roxo{
+    width: 300px;
+    height: 150px;
+    background-color: purple;
+    position: sticky;
+    top: 0px;
+}
+
+.verde{
+    width: 650px;
+    height: 120px;
+    background-color: green;
+    position: relative;
+    left: 150px;
+    top: 200px;
+}
+
+p {
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    margin: 0px;
+}

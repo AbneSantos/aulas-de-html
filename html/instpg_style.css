@@ -1,4 +1,6 @@
-
+body{
+    font-family: sans-serif;
+}
 .imgs img{
     height: 125px;
     width: 125px;
