@@ -1,0 +1,42 @@
+body{
+    color:white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: rgb(11, 122, 9);
+    text-decoration: none;
+}
+
+.head img{
+    border-radius: 50%;
+}
+
+.head{
+    text-align: center;
+}
+
+#flamengo{
+    border-radius: 12%;
+    border: 5px solid red;
+}
+
+#ufc{
+    border-radius: 12%;
+    border: 5px solid blue;
+}
+
+.img{
+    display: flexbox;
+    justify-content: space-around;
+    padding-left: 16px;
+}

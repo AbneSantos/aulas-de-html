@@ -1,0 +1,60 @@
+
+.imgs img{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border:ridge orangered;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.imgs{
+    border-bottom: solid gray 1px;
+}
+
+#me{
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: none;
+}
+
+.cab .perfil{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+.cab{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.cab h4{
+    margin:;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.ftr{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    height: 650px;
+    width: 600px;
+}
+
+.ftr p{
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
