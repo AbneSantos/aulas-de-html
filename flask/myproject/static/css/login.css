@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: lightseagreen;
+    color: black;
+}
+
+.containerL {
+    background-position: center;
+}
