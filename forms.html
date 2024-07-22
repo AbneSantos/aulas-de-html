@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <h1>geek forms</h1>
+
+    <form id="form">
+        <div class="form-control">
+            <label for="name" id="label-name">
+                name
+            </label>
+
+            <input type="text" id="name" placeholder="enter your name">
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="email-label">
+                emaiul
+            </label>
+
+            <input type="email" id="email" placeholder="enter your email">
+
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                age
+            </label>
+
+            <input type="text" id="age" placeholder="enter your age">
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="label-role">
+                which best option describe you
+            </label>
+
+            <select name="name" id="role">
+                <option value="student">student</option>
+                <option value="intern">intern</option>
+                <option value="professional">professional</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label> would you recommend geeks to a friend ?</label>
+
+            <label for="recommed-1"><input type="radio" id="yes">yes</input></label><br>
+            <label for="recommed-2"><input type="radio" id="no">no </input></label><br>
+            <label for="recommed-3"><input type="radio" id="maybe">maybe</input></label><br>
+        </div>
+    </form>
+    
+</body>
+</html>
